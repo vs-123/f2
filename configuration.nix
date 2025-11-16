@@ -16,6 +16,12 @@
     enable = true;
     desktopManager.xfce.enable = true;
   };
+
+  services.displayManager = {
+    enable = true;
+    ly.enable = true;
+  };
+
   
   users.users.neb = {
     isNormalUser = true;
