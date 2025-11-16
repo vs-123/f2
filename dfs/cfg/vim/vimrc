@@ -1,0 +1,16 @@
+set nu rnu
+syntax on
+
+colo habamax
+
+set cursorline
+set tabstop=3 shiftwidth=3 expandtab smartindent
+set incsearch hlsearch
+
+let mapleader=" "
+
+nnoremap <silent> <leader>e :Ex<CR>
+nnoremap <silent> <leader>h :tabp<CR>
+nnoremap <silent> <leader>l :tabn<CR>
+nnoremap <silent> <leader>n :tabnew<CR>
+nnoremap <silent> <leader>q :tabclose<CR>

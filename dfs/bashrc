@@ -1,5 +1,7 @@
 alias ls='ls -F -a --color=auto'
 alias ll='ls -l'
 alias ..='cd ..'
-alias s='sudo'
-alias f='nixos-rebuild switch --flake .'
+
+alias sf='sudo nixos-rebuild switch --flake .'
+alias cdf='cd $(find / /home -type d -name f2)'
+alias cf='cdf'
