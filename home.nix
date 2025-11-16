@@ -3,6 +3,8 @@
     alacritty
     librewolf
     lazygit
+    xorg.xrandr
+    libxcvt
   ]; 
 
   programs = {
@@ -33,9 +35,17 @@
 
     xfce4-keyboard-shortcuts = {
       "commands/custom/<Alt>s" = "xfce4-appfinder";
+      "xfwm4/custom/<Alt>w" = "close_window_key";
     };
+
     xfwm4 = {
       "general/button_layout" = "CMHS|O";
+      "general/frame_opacity" = 90;
+      "general/inactive_opacity" = 90;
+    };
+
+    xfce4-panel = {
+      panels = [1];
     };
   };
 
