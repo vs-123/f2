@@ -34,8 +34,13 @@
     xfce4-keyboard-shortcuts = {
       "commands/custom/<Alt>s" = "xfce4-appfinder";
     };
+
     xfwm4 = {
       "general/button_layout" = "CMHS|O";
+    };
+
+    xfce4-panel = {
+      panels = [1];
     };
   };
 
