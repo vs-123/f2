@@ -3,6 +3,8 @@
     alacritty
     librewolf
     lazygit
+    xorg.xrandr
+    libxcvt
   ]; 
 
   programs = {
