@@ -2,9 +2,12 @@
   home.packages = with pkgs; [
     alacritty
     librewolf
+    flameshot
+    fastfetch
     lazygit
     xorg.xrandr
     libxcvt
+    cool-retro-term
   ]; 
 
   programs = {
@@ -35,6 +38,7 @@
 
     xfce4-keyboard-shortcuts = {
       "commands/custom/<Alt>s" = "xfce4-appfinder";
+      "commands/custom/<Alt><Shift>s" = "flameshot gui";
       "xfwm4/custom/<Alt>w" = "close_window_key";
     };
 
