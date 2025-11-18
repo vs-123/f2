@@ -1,12 +1,13 @@
 set nu rnu
 syntax on
 
-colo habamax
+colo default
 
 set cursorline
 set tabstop=3 shiftwidth=3 expandtab smartindent
 set incsearch hlsearch
 set virtualedit=all mouse=a
+set scrolloff=3
 
 let mapleader=" "
 
