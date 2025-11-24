@@ -2,7 +2,7 @@ alias ls='ls -F -a --color=auto'
 alias ll='ls -l'
 alias ..='cd ..'
 
-alias sf='sudo nixos-rebuild switch --flake .'
+alias sf='echo "Running NixOS Rebuild Switch with Impure..."; sudo nixos-rebuild switch --flake . --impure'
 alias cdf='cd $(find / -type d -name f2 2> /dev/null | head -n 1)'
 alias cf='cdf'
 
