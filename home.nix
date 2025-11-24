@@ -5,9 +5,16 @@
     flameshot
     fastfetch
     lazygit
+    btop
     xorg.xrandr
     libxcvt
     cool-retro-term
+    clang-tools
+    llvmPackages.clang
+    cmake
+    gnumake
+    python3
+    rmlint
   ]; 
 
   programs = {
