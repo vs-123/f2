@@ -14,7 +14,8 @@
     cmake
     gnumake
     python3
-    rmlint
+
+    (rmlint.override {withGui = true;})
   ]; 
 
   programs = {
