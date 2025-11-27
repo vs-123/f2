@@ -32,10 +32,11 @@
   home.file = {
     ".bashrc".source = ./dfs/bashrc;
     ".config/vim" = {source = ./dfs/cfg/vim; recursive = true;};
+    ".emacs" = {source = ./dfs/.emacs;};    
   };
 
   home.sessionVariables = {
-    EDITOR = "vim";
+    EDITOR = "emacs";
   };
 
   xfconf.settings = {
@@ -47,7 +48,7 @@
     xfce4-keyboard-shortcuts = {
       "commands/custom/<Alt>s" = "xfce4-appfinder";
       "commands/custom/<Alt><Shift>s" = "flameshot gui";
-      "xfwm4/custom/<Alt>w" = "close_window_key";
+      "xfwm4/custom/<Alt><Shift>w" = "close_window_key";
     };
 
     xfwm4 = {
