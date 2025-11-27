@@ -35,7 +35,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    vim
+    emacs
     wget
   ];
 
