@@ -20,7 +20,6 @@
 (scroll-bar-mode 0)
 (column-number-mode 1)
 (indent-tabs-mode 0)
-(electric-indent-mode 0)
 (tab-bar-mode t)
 (setq inhibit-startup-screen 1)
 
@@ -38,7 +37,6 @@
 (global-set-key (kbd "<C-tab>") 'tab-bar-switch-to-next-tab)
 (global-set-key (kbd "<C-S-tab>") 'tab-bar-switch-to-prev-tab)
 
-(package-refresh-contents)
 (my/pkg-i 'eglot)
 (my/pkg-i 'cmake-mode)
 (my/pkg-i 'magit)
